@@ -1,0 +1,238 @@
+
+*{
+    margin-left:30px;
+    padding: 0;
+}
+div{
+    border: 1px solid black;
+}
+body{
+background-color:whitesmoke;
+margin-top: 30px;
+}
+
+.header{
+
+    width:100%;
+
+
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.header nav a{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+text-transform: capitalize;
+}
+.button{
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.content3 {
+margin-top: -30%;
+    display :flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-end;
+
+}
+.content1 {
+font-size:40px;
+margin-bottom: 40px;
+}
+.content2 {
+ font-size: 10px;
+ font-weight:lighter;
+ margin-top: 40px;
+}
+.content2 a button{
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+}
+.maincontent{
+    
+        display:flex;
+         
+    }
+button{
+    background-color: red;
+    color: white;
+ border-radius: 5px;
+    font-weight: bold;
+    padding:10px;
+
+}
+.center1{
+    background-color: white;
+    width:100%;
+}
+
+.mainleft{
+    
+    width:40%;
+}
+.mainright{
+    padding: 10px;
+    width:60%;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo1{
+font-size: 13px;
+background-color:gainsboro;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.photo2{
+    
+        font-size: 13px;
+        background-color:gainsboro;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .photo3{
+            font-size: 13px;
+            background-color:gainsboro;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            .photo4{
+                font-size: 13px;
+                background-color:gainsboro;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                }
+
+
+.photo1 img{
+    height: 50px;
+    
+    position: relative;
+    position: absolute;
+     margin-top: -35px;
+     display: flex;
+    margin-left:-10px;
+     align-items: center;
+}
+.photo3 img{
+    height: 50px;
+    
+    position: relative;
+    position: absolute;
+     margin-top: -35px;
+     display: flex;
+    margin-left:-10px;
+     align-items: center;
+}
+.photo4 img{
+    height: 50px;
+
+    position: relative;
+    position: absolute;
+     margin-top: -35px;
+     display: flex;
+    margin-left:-10px;
+     align-items: center;
+}
+.photo2 img{
+    height: 50px;
+    
+    position: relative;
+    position: absolute;
+     margin-top: -35px;
+     display: flex;
+    margin-left:-10px;
+     align-items: center;
+}
+.btn4{
+display: flex;
+flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    min-height: 40px;
+    width:100%;
+    background-color: orangered;
+}
+.white{
+    min-height: 80px;
+    width:100%;
+}
+.black{
+    height:100px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footerlogo{
+    height: 20px;
+    width:25px;
+    background-color: white;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-decoration: none;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer2 a, .footer1 a{
+    text-decoration: none;
+color:white ;
+}
+
+a:hover {
+    text-decoration: none;  
+    
+}
+
+.footer3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+#text{
+    border-radius: 25px;
+    
+
+}

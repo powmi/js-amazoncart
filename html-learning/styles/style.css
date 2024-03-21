@@ -1,0 +1,54 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+                        #navdiv{
+                            width:17%;
+                            margin-left: 82%;
+                            margin-top: 1%;
+                            height:35px;
+                            background-color:none;
+                            text-decoration: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: flex-end;
+                            display:flex;
+                        }     
+                        header img{
+                            margin-top: 5px;
+                    }
+                            
+                          a{
+                            text-decoration: none;
+                          }
+                          body div{
+                            border:1px solid black;
+            
+                          }
+.body1{
+    height: 100px;
+    width:100px;
+    background-color:white;
+    border: greenyellow;
+display: flex;
+justify-content: center;
+
+}
+.googlehome{
+    margin-top:15vh;
+    font-size:44px;
+text-align:center;
+}
+
+}
+.footer1{
+    height: 100%;
+                            width:100%;
+                            background-color:none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: flex-end;
+}
